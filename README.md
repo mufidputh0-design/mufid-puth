@@ -1,4 +1,4 @@
-Abiyyul Hi-Res Lossless
+Kalashnikov Hi-Res Lossless
 
 BitChord Music Streaming Addon
 
