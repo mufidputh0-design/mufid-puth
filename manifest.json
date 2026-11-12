@@ -1,0 +1,38 @@
+{
+  "id": "dev.abiyyul.hires.catalog",
+  "name": "Abiyyul Hi-Res Catalog",
+  "version": "2.1.0",
+  "description": "Free audio catalog from Internet Archive; prefers the best available source quality.",
+  "resources": [
+    "search",
+    "stream"
+  ],
+  "allowDownloads": 0,
+  "checkValidLossless": 0,
+  "settings": [
+    {
+      "key": "quality",
+      "type": "select",
+      "label": "Audio Quality",
+      "default": "max",
+      "options": [
+        {
+          "value": "max",
+          "label": "Best available"
+        },
+        {
+          "value": "lossless",
+          "label": "FLAC / WAV only"
+        },
+        {
+          "value": "high",
+          "label": "High quality"
+        },
+        {
+          "value": "hires",
+          "label": "Hi-Res (24-bit / 88.2 kHz or higher)"
+        }
+      ]
+    }
+  ]
+}
